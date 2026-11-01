@@ -1,6 +1,6 @@
 ---
 name: frontend-slides
-description: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.
+description: Create stunning, animation-rich HTML presentations and data visualization charts from scratch or by converting PowerPoint files. Integrates Frontend Slides and Lieflat Charts (Lupi Editorial, Glance, Basics, Interactive) for data storytelling, charts, and decks.
 ---
 
 # Frontend Slides
@@ -378,3 +378,20 @@ This captures each slide as a screenshot and combines them into a PDF. Perfect f
 | [scripts/extract-pptx.py](scripts/extract-pptx.py) | Python script for PPT content extraction                             | Phase 4 (conversion)      |
 | [scripts/deploy.sh](scripts/deploy.sh)             | Deploy slides to Vercel for instant sharing                          | Phase 6 (sharing)         |
 | [scripts/export-pdf.sh](scripts/export-pdf.sh)     | Export slides to PDF                                                 | Phase 6 (sharing)         |
+| [lieflat-charts/catalog.md](lieflat-charts/catalog.md) | 49 Lieflat Chart contracts (Lupi, Glance, Basics, Interactive) | When adding data charts  |
+| [lieflat-charts/presentation-catalog.md](lieflat-charts/presentation-catalog.md) | Lieflat Charts 16:9 presentation layout index | Slide layouts with charts |
+| [lieflat-charts/report-catalog.md](lieflat-charts/report-catalog.md) | Lieflat Charts full-page report templates | When creating report decks |
+
+---
+
+## Data Visualization & Charts (Lieflat Charts Integration)
+
+When slides or decks require data visualization, KPI dashboards, comparative metrics, or analytical reports, use the integrated **Lieflat Charts** (`lieflat-charts/`):
+
+1. **Chart Types & Catalog**: Consult [lieflat-charts/catalog.md](lieflat-charts/catalog.md) for 49 ready-to-use chart contracts across 4 families:
+   - **Lupi Editorial**: High-density narrative charts with hairlines, fine dots, generous negative space, and real data units. Best for research, annual reports, and deep data stories.
+   - **Glance**: High-impact, fast-reading charts for weekly summaries, dashboards, and KPI highlights (3-second readability).
+   - **Basics**: Refined standard charts (bars, lines, donuts, area, scatter, treemaps) with editorial elegance.
+   - **Interactive**: Rich interactive relationship graphs, paths, and multi-stream flows.
+2. **Color Schemes**: Use Mono (default) or color presets from [lieflat-charts/color-presets.js](lieflat-charts/color-presets.js) (Porcelain Blue, Palm Green, Editorial Wire Red).
+3. **16:9 Slide Integration**: Embed charts inside the standard 1920×1080 stage adhering to `viewport-base.css`. Refer to [lieflat-charts/presentation-catalog.md](lieflat-charts/presentation-catalog.md) for pre-built 16:9 chart slide layouts.

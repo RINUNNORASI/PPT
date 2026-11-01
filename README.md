@@ -24,6 +24,7 @@ https://github.com/user-attachments/assets/ef57333e-f879-432a-afb9-180388982478
 
 - **Zero Dependencies** — Single HTML files with inline CSS/JS. No npm, no build tools, no frameworks.
 - **Visual Style Discovery** — Can't articulate design preferences? No problem. Pick from generated visual previews.
+- **Lieflat Charts Integration** — 49+ editorial & glance-ready charts (Lupi, Glance, Basics, Interactive) for data storytelling, KPI dashboards, and presentation reports.
 - **PPT Conversion** — Convert existing PowerPoint files to web, preserving all images and content.
 - **Anti-AI-Slop** — Curated distinctive styles that avoid generic AI aesthetics (bye-bye, purple gradients on white).
 - **Bold Template Pack** — Optional design-forward templates from `beautiful-html-templates`, loaded progressively so safe presets still work as the default fallback.
